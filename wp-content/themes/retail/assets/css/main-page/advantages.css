@@ -1,0 +1,21 @@
+/***********/
+/***********/
+/***********/
+/***********/
+/**********/
+.advantages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .advantages__item {
+    display: flex;
+    flex-basis: 24%; }
+  .advantages__icon {
+    margin-right: 20px; }
+  .advantages__header {
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 8px; }
+  .advantages__text {
+    color: #767676;
+    font-size: 14px; }

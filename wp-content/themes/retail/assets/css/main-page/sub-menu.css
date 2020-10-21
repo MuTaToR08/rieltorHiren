@@ -1,0 +1,29 @@
+/***********/
+/***********/
+/***********/
+/***********/
+/**********/
+.sub-menu {
+  display: flex;
+  padding: 25px 0;
+  background: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.12); }
+  .sub-menu__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+    flex-basis: 25%;
+    background: #ffffff;
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 500;
+    border-right: 1px solid #CDCDCD; }
+    .sub-menu__item:last-child {
+      border-right: none; }
+    .sub-menu__item div {
+      margin-top: 8px;
+      font-size: 14px;
+      line-height: 20px; }
